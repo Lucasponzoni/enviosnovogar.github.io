@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600&display=swap');
+
+.formulario{
+    border-radius: 25px;
+    font-family: 'Unbounded', cursive;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.logo{
+    width: 100%;
+    padding: 1rem;
+}
+
+footer{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Unbounded', cursive;
+}
+
+footer > a{
+    text-decoration: none;
+    color: grey;
+    transition: .5s;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.logo-foot{
+    width: 300px;
+}
